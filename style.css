@@ -306,6 +306,34 @@ a:hover {
     margin: 0 5px 0 0;
     display: inline;
 }
+/*css rajouter*/
+@media (max-width: 767px){
+    .navbar-brand img {
+        max-height: 40px;
+        width: auto;
+    }
+}
+
+@media (max-width: 991px) and (min-width:768px){
+    .navbar-brand img {
+        max-height: 50px;
+        width: auto;
+    }
+}
+
+@media (max-width: 1399px) and (min-width:992px){
+    .navbar-brand img {
+        max-height: 55px;
+        width: auto;
+    }
+}
+
+@media (max-width:1800) and (min-width: 1400px){
+    .navbar-brand img {
+        max-height: 55px;
+        width: auto;
+    }
+}
 
 .navbar-brand img[src$=svg] {
     min-width: 100px;
@@ -326,6 +354,26 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+}
+
+/*CSS rajouter*/
+
+@media (max-width:1199px)and (min-width:768px){
+    .nav > li{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:1399px)and (min-width:1200px){
+    .nav > li{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:1800px) and (min-width:1400px){
+    .nav > li{
+        font-size: 30px;
+    }
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -655,8 +703,14 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 100%;
 }
+
+/*@media (max-width:1800px)  and (min-width:1400px){
+    .container {
+        max-width: 100%;
+    }
+}*/
 
 .hero-bloc-text {
     font-size: 38px;
@@ -1038,5 +1092,13 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+
+/*CSS rajouter*/
+
+@media (max-width: 991px) and (min-width:768px){
+    .list-nav{
+        font-size: 20px;
     }
 }
