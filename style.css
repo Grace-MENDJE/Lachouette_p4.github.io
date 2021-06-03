@@ -7,6 +7,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.page-container {
+    max-width: 1500px;
+    margin: auto;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -742,12 +747,6 @@ a {
     max-width: 100%;
 }
 
-/*@media (max-width:1800px)  and (min-width:1400px){
-    .container {
-        max-width: 100%;
-    }
-}*/
-
 .hero-bloc-text {
     font-size: 38px;
 }
@@ -1075,6 +1074,8 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
+
+
     .page-container,
     #hero-bloc {
         overflow-x: hidden;
